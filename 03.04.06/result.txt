@@ -1,0 +1,12 @@
+{
+  "summarization": "Remote work, driven by the global pandemic, has grown in popularity due to its benefits like improved job satisfaction, better work-life balance, and cost savings for companies. However, it also brings challenges such as employee isolation, reduced collaboration, and productivity issues. Employers may struggle with oversight and communication. Despite these drawbacks, remote work is expected to persist, with hybrid models gaining traction as technology enhances remote collaboration tools.",
+  "sentiment_result": "neutral",
+  "score": 0.1,
+  "metadata": {
+    "lang": "en",
+    "length": "157",
+    "created_at": "2025-06-08T12:00:00Z",
+    "contains_subjective_language": true,
+    "emotion_keywords": ["satisfaction", "isolation", "struggle", "flexibility", "improved"]
+  }
+}
