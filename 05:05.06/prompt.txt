@@ -1,0 +1,91 @@
+You are an AI assistant supporting a product team in analyzing user feedback to extract detailed and structured insights. Your goal is to transform unstructured feedback into a structured JSON format for integration into internal product workflows.
+
+---
+
+### Step-by-Step Instructions:
+
+1. **Determine sentiment**:  
+   Analyze the tone of the message. Is it generally Positive, Negative, Neutral, or Mixed (contains both positive and negative aspects)?
+
+2. **Check relevance**:  
+   Determine whether the feedback is actually about the product or service.  
+   - If **not relevant**, set `isRelevant` to `false`, leave the rest of the fields as `null` or empty arrays, and stop further analysis.  
+   - If relevant, continue.
+
+3. **Identify the main subject**:  
+   What specific part of the product or experience is the user mainly talking about? (e.g., sensor performance, pricing, design, build quality)
+
+4. **Extract positives**:  
+   What parts did the user praise or express satisfaction with?
+
+5. **Extract pain points**:  
+   What issues or complaints are mentioned?
+
+6. **Extract improvement suggestions**:  
+   What improvements does the user explicitly or implicitly suggest?
+
+7. **List features mentioned**:  
+   Identify and list all product features or components mentioned in the feedback.
+
+8. **Estimate user expertise**:  
+   Based on the language, technical detail, or references, is the user likely Experienced, Novice, or Unknown?
+
+---
+
+### Output Format (JSON only):
+
+```json
+{
+  "sentiment": "string (Positive|Negative|Neutral|Mixed)",
+  "isRelevant": boolean,
+  "mainSubject": "string or null",
+  "positives": ["array of strings"],
+  "painPoints": ["array of strings"],
+  "improvementSuggestions": ["array of strings"],
+  "featuresMentioned": ["array of strings"],
+  "userExpertise": "string (Experienced|Novice|Unknown)"
+}  Example 1 (feedback):
+
+“The scroll wheel feels super satisfying and the build quality is top notch, but the side buttons are mushy and I sometimes get double clicks.”  {
+  "sentiment": "Mixed",
+  "isRelevant": true,
+  "mainSubject": "mouse hardware",
+  "positives": ["satisfying scroll wheel", "good build quality"],
+  "painPoints": ["mushy side buttons", "double click issue"],
+  "improvementSuggestions": ["improve side button responsiveness", "fix double click bug"],
+  "featuresMentioned": ["scroll wheel", "side buttons"],
+  "userExpertise": "Unknown"
+}
+ Example 2 (feedback):
+
+“I’ve used dozens of gaming mice and this one feels the most natural. The sensor is flawless and the battery life is insane.”  {
+  "sentiment": "Positive",
+  "isRelevant": true,
+  "mainSubject": "overall mouse experience",
+  "positives": ["natural feel", "flawless sensor", "excellent battery life"],
+  "painPoints": [],
+  "improvementSuggestions": [],
+  "featuresMentioned": ["sensor", "battery life"],
+  "userExpertise": "Experienced"
+}
+
+Example 3 (feedback):  “Honestly just got it yesterday, haven’t used it much yet but looks cool.”  {
+  "sentiment": "Neutral",
+  "isRelevant": true,
+  "mainSubject": "product appearance",
+  "positives": ["cool design"],
+  "painPoints": [],
+  "improvementSuggestions": [],
+  "featuresMentioned": ["design"],
+  "userExpertise": "Unknown"
+}  Now analyze the following feedbacks using the above reasoning process:
+
+Feedback A:
+
+“Sensor just stops tracking for like a half second kinda often even at 8000hz. I’ve also tried it plugged in and still the same problem. First one I got I had to return also because the dongle just didnt work, $150 mouse btw”
+
+Feedback B:
+
+“Is it worth it? It is a product with no flaws in my opinion, if you love it go for it, but its not worth the price since you’ll be able to perform the same with a cheaper product with half the specs.”
+
+→ Output structured JSON for each using all reasoning steps in order.
