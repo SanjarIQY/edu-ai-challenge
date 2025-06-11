@@ -1,0 +1,8 @@
+"I have the following description of a bug. Please convert it into a well-structured ticket using the following sections: **Title, Description, Steps to Reproduce, Expected vs. Actual Behavior, Environment (if known), and Severity or Impact.** Focus on clarity, conciseness, and actionability for developers. Avoid vague language, and assume the developer is familiar with the system but not necessarily with the specific scenario.  Please organize the information logically and present it in a format suitable for direct entry into a bug tracking system.
+Bug: Token provided by auth server is not valid read to manipulate users data
+Specifically, ensure the following:
+*  The Title is concise and accurately reflects the issue.
+*  The Steps to Reproduce are numbered and precise.
+  _The Expected vs. Actual Behavior section clearly distinguishes between what_ should* have happened and what _did_ happen.
+*  The Environment section includes relevant details (OS, browser, version, etc.).
+*  The Severity or Impact is assessed appropriately (e.g., Critical, High, Medium, Low)."

@@ -1,0 +1,16 @@
+{
+  "name": "enigma-machine",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of the Enigma cipher machine",
+  "main": "enigma.js",
+  "scripts": {
+    "start": "node enigma.js",
+    "test": "node test.js"
+  },
+  "keywords": ["enigma", "cipher", "encryption", "wwii", "cryptography"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+} 

@@ -44,9 +44,9 @@ You are an AI assistant supporting a product team in analyzing user feedback to 
   "improvementSuggestions": ["array of strings"],
   "featuresMentioned": ["array of strings"],
   "userExpertise": "string (Experienced|Novice|Unknown)"
-}  Example 1 (feedback):
+}Example 1 (feedback):
 
-“The scroll wheel feels super satisfying and the build quality is top notch, but the side buttons are mushy and I sometimes get double clicks.”  {
+“The scroll wheel feels super satisfying and the build quality is top notch, but the side buttons are mushy and I sometimes get double clicks.”{
   "sentiment": "Mixed",
   "isRelevant": true,
   "mainSubject": "mouse hardware",
@@ -56,9 +56,9 @@ You are an AI assistant supporting a product team in analyzing user feedback to 
   "featuresMentioned": ["scroll wheel", "side buttons"],
   "userExpertise": "Unknown"
 }
- Example 2 (feedback):
+Example 2 (feedback):
 
-“I’ve used dozens of gaming mice and this one feels the most natural. The sensor is flawless and the battery life is insane.”  {
+“I’ve used dozens of gaming mice and this one feels the most natural. The sensor is flawless and the battery life is insane.”{
   "sentiment": "Positive",
   "isRelevant": true,
   "mainSubject": "overall mouse experience",
@@ -69,7 +69,7 @@ You are an AI assistant supporting a product team in analyzing user feedback to 
   "userExpertise": "Experienced"
 }
 
-Example 3 (feedback):  “Honestly just got it yesterday, haven’t used it much yet but looks cool.”  {
+Example 3 (feedback):“Honestly just got it yesterday, haven’t used it much yet but looks cool.”{
   "sentiment": "Neutral",
   "isRelevant": true,
   "mainSubject": "product appearance",
@@ -78,7 +78,7 @@ Example 3 (feedback):  “Honestly just got it yesterday, haven’t used it 
   "improvementSuggestions": [],
   "featuresMentioned": ["design"],
   "userExpertise": "Unknown"
-}  Now analyze the following feedbacks using the above reasoning process:
+}Now analyze the following feedbacks using the above reasoning process:
 
 Feedback A:
 
