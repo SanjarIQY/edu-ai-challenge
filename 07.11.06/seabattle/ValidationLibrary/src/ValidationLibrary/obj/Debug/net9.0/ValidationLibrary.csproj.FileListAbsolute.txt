@@ -1,0 +1,12 @@
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/bin/Debug/net9.0/ValidationLibrary.deps.json
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/bin/Debug/net9.0/ValidationLibrary.dll
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/bin/Debug/net9.0/ValidationLibrary.pdb
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ValidationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ValidationLibrary.AssemblyInfoInputs.cache
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ValidationLibrary.AssemblyInfo.cs
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ValidationLibrary.csproj.CoreCompileInputs.cache
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ValidationLibrary.sourcelink.json
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ValidationLibrary.dll
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/refint/ValidationLibrary.dll
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ValidationLibrary.pdb
+/Users/sanjarbekganiev/Desktop/just folder/edu-ai-challenge/07.11.06/seabattle/ValidationLibrary/src/ValidationLibrary/obj/Debug/net9.0/ref/ValidationLibrary.dll
