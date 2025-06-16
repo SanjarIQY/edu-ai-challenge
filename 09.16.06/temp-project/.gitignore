@@ -1,0 +1,15 @@
+# API Keys and sensitive data
+appsettings.json
+
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+.vs/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db 
