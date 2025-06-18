@@ -1,0 +1,29 @@
+# Configuration files with sensitive data
+appsettings.json
+appsettings.*.json
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.userprefs
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log 
