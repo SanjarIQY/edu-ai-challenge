@@ -1,6 +1,3 @@
-# API Keys and sensitive data
-appsettings.json
-
 # Build outputs
 bin/
 obj/
